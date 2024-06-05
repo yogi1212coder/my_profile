@@ -1,0 +1,143 @@
+.menu{
+  height: 100%;
+  
+}
+/* .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  
+} */
+
+
+body{
+  background-image: url(banner-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 992px) {
+    .navber {
+      display: inline;
+
+    }
+    .menu{
+      display: none !important;
+      
+    }
+    .logo{
+       text-align: center !important;
+       height: auto;
+      margin: auto;
+    }
+    .menu-option li{
+      list-style: none;
+      padding-top: 15px;
+
+
+    }
+    .menu-option li a{
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+
+
+  body {margin:0
+  
+  
+  
+  }
+  icon-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .icon-bar a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    overflow: hidden;
+    
+  }
+
+  .icon-bar a .bi {
+    font-size: 24px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .icon-bar a span {
+    position: absolute;
+    font-size: 16px;
+    top: 20px;
+    text-align: center;
+    font-weight: 700;
+    right: 100%;
+    white-space: nowrap;
+    opacity: 0;
+    transition: right 0.5s, opacity 0.3s;
+  }
+
+  .icon-bar a:hover .bi {
+    transform: translateX(50px);
+    opacity: 0;
+    color: #ff014f;
+  }
+
+  .icon-bar a:hover span {
+    right: 30px;
+    opacity: 1;
+    color: #ff014f;
+
+  }
+  
+  
+  .icon-bar {
+
+    /* width: px; */
+    background-color: #555;
+  }
+  .icon-bar .aa{
+    height: 136px;
+  }
+  .icon-bar .aa i .play-icon{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 6px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  
+    border-bottom: solid gray 1px;
+    color: white;
+  }
+  .icon-bar a i{
+    font-size: 24px;
+  }
+  .icon-bar a div{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: aqua;
+  }
+  
+  .icon-bar a i:hover {
+    color: #ff014f; transition: 0.3s;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+
