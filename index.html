@@ -6,9 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ajay Yogi</title>
   <!-- link-bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <!-- link-bootstrap -->
@@ -17,6 +22,9 @@
   <!-- css -->
   <link rel="stylesheet" href="style.css">
   <!-- css -->
+  <!-- mq css -->
+  <link rel="stylesheet" href="mq.css">
+  <!-- mq css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
@@ -89,58 +97,702 @@
   <!-- side-navbar -->
 
   <!-- main-content -->
-  <main class="main">
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-lg-6 mt-5 text-center">
-          <h2 class="banner-heading col-md-12 col-sm-12 mt-5  text-center">
-            <span class="welcome-text">Welcome</span>
-            Hi <img src="https://wordpress.validthemes.net/ambrox/wp-content/plugins/ambrox-core/assets/img/4.png"
-              alt="" width="40" height="40"> I'm Easton
-          </h2>
-          <div class="container mt-3">
-            <h4 class="heading-title mt-2">
-              <div class="typing-container">
-                <span id="typing-text" class="underline typing"></span>
-              </div>
-            </h4>
-          </div>
-          <button type="button" class="btn banner-button btn-lg mt-3 "> <span style="font-weight: 600;font-size: 18px;">My Resume</span> </button>
 
-        </div>
-        <div class="col-md-12 col-sm-12 col-lg-6 text-center  ">
-          <img class="banner-img col-sm-12 col-md-12 text-center mt-5"
-            src="https://wordpress.validthemes.net/ambrox/wp-content/uploads/2023/01/1.png" width="auto" height="500px"
-            alt="">
+
+
+  <main class="main">
+    <div class="container">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-lg-6 mt-5 text-center">
+            <h2 class="banner-heading col-md-12 col-sm-12 mt-5  text-center">
+              <span class="welcome-text">Welcome</span>
+              Hi <img src="https://wordpress.validthemes.net/ambrox/wp-content/plugins/ambrox-core/assets/img/4.png"
+                alt="" width="40" height="40"> I'm Ajay
+            </h2>
+            <div class="container mt-3">
+              <h4 class="heading-title mt-2">
+                <div class="typing-container">
+                  <span id="typing-text" class="underline typing"></span>
+                </div>
+              </h4>
+            </div>
+
+
+
+            <button type="button" class="btn banner-button btn-lg mt-5 "> <span
+                style="font-weight: 600;font-size: 18px;">My Resume</span> </button>
+
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-6 text-center  ">
+            <img class="banner-img col-sm-12 col-md-12 text-center mt-5 img-fluid"
+              src="https://wordpress.validthemes.net/ambrox/wp-content/uploads/2023/01/1.png" width="auto"
+              height="500px" alt="">
+          </div>
         </div>
       </div>
+
+      <div class="container services pb-5">
+        <h4 class="text-center service-heading_gradient-text mb-2">MY EXPERTISE</h4>
+        <h2 class="text-center service-heading-2  ">What I Do</h2>
+        <div class="p-2" style="border-bottom:4px solid;width: 80px;margin: auto;color: #ff014f;"></div>
+        <div class="row  mt-5">
+          <div class="col-lg-4 col-sm-12 col-md-4  services_bio  text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12   ">
+                  <img class="service-img mb-5" src="1-1.png" alt="">
+                </div>
+                <div class="col-lg-12  ">
+                  <h3 class="service-heading">Web Development</h3>
+                </div>
+                <div class="col-lg-12  ">
+                  <p class="service-text">We provide modern web development services to create responsive and robust
+                    websites.
+                    Seeing get rather her you not esteem men settle is genius take excuse. Deal say over you age
+                    comparison new ham melancholy.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12  col-md-4  text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12    text-center">
+                  <img class="service-img mb-5" src="2.png" alt="">
+                </div>
+                <div class="col-lg-12  ">
+                  <h3 class="service-heading">Website Design</h3>
+                </div>
+                <div class="col-lg-12  ">
+                  <p class="service-text">Continue indulged speaking the was horrible for domestic position. Seeing get
+                    rather her you not esteem men settle is genius take excuse. Deal say over you age comparison new ham
+                    melancholy.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-sm-12 col-md-4   text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 ">
+                  <img class="service-img  mb-5" src="4.png" alt="">
+                </div>
+                <div class="col-lg-12 ">
+                  <h3 class="service-heading">UX/UI Design</h3>
+                </div>
+                <div class="col-lg-12 ">
+                  <p class="service-text">Continue indulged speaking the was horrible for domestic position. Seeing get
+                    rather her you not esteem men settle is genius take excuse. Deal say over you age comparison new ham
+                    melancholy.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-end me-5 " style="margin-top: -35px;">
+              <img class="img-fluid" src="1.webp" alt="" width="200px" height="130px">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" style="margin-top: 70px;">
+        <div class="row">
+          <div class="col-md-12 ">
+            <div class="container center-content">
+              <div class="row">
+                <div class="col-md-5 col-sm-12 heading-sub-title ">
+                  <h5 class="sub-title ">RECENT WORK</h5>
+                  <h2 class="title mt-4 ">Look at my portfolio and <br> give me your feedback</h2>
+                </div>
+                <div class="col-md-3 offset-md-4 pt-5 completed-project">
+                  <div>
+                    <h1 class="">10</h1>
+                  </div>
+                  <h5 class="pt-1 text-muted">Completed Project</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 gallery-items">
+            <img src="1-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-sm-12 gallery-items">
+            <img src="4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6 col-sm-12 gallery-items">
+            <img src="1-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-sm-12 gallery-items">
+            <img src="4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="row  mt-5">
+          <div class="col-md-6 col-sm-12 gallery-items">
+            <img src="1-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 col-sm-12 gallery-items">
+            <img src="4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="container profile">
+        <div class="row">
+          <div class="col-md-12 col-lg-12">
+            <div class="container profile-section">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 text-center p-2 profile-img">
+                  <img class="img-fluid" src="3-1.png" alt="Profile Image" width="400px">
+                </div>
+                <div class="col-lg-6 col-md-12 ps-5 pt-4">
+                  <div class="col-md-12 ">
+                    <h3 class="profile-title  fw-bold">ABOUT ME</h3>
+                  </div>
+                  <div class="col-md-12 mt-3">
+                    <h1 class="fw-bolder profile-bio">I can develop <br> that help people</h1>
+                  </div>
+                  <div class="col-md-12 mt-3">
+                    <p class="text-muted fs-5">
+                      Hi, my name is Adriano Smith and I began using WordPress when it first began. I’ve spent most of
+                      my
+                      waking hours for the last ten years designing, programming and operating WordPress sites. One of
+                      my
+                      specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to
+                      produce sites with a unique.
+                    </p>
+                  </div>
+                  <div class="col-lg-12 col-md-12 mt-4">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-12 col-sm-12 profile-icon p-3   ">
+                        <!-- <div class="profile-icon p-3 text-center"> -->
+                        <i class="text-white bi bi-layers-fill"></i>
+                        <!-- </div> -->
+                      </div>
+                      <div class="col-lg-8 col-md-12">
+                        <h3 class="fs-3">Junior PHP Developer</h3>
+                        <h4 class="text-muted">Level Two Seller - Fiverr</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Additional content can go here -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container d-md-none mt-5 ">
+        <div class="col-sm-12">
+          <ul class=" row row-cols-sm-1 row-cols-1 row-cols-md-3 responsive-nav nav nav-tabs  mb-5" id="myTab"
+            role="tablist">
+
+            <div class="col-sm-12">
+              <li class="responsive-nav nav-item pt-3  ">
+                <a class="nav-link active  pt-0 fw-bold   " id="home-tab" data-toggle="tab" href="#home" role="tab"
+                  aria-controls="home" aria-selected="true">BIOGRAPHY
+                  - 01
+                </a>
+              </li>
+            </div>
+            <div class="col-sm-12">
+              <li class="nav-item pt-3 mt-2">
+                <a class="nav-link  pt-0 fw-bold " id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                  aria-controls="profile" aria-selected="false">SKILLS
+                  - 02</a>
+              </li>
+            </div>
+            <div class="col-sm-12">
+              <li class="nav-item pt-3 mt-2 ">
+                <a class="nav-link  pt-0 fw-bold " id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                  aria-controls="contact" aria-selected="false">EDUCATION
+                  - 03</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container mt-5  pb-4 border m-3 w-auto  biodata 
+     ">
+
+
+
+        <div class="row ">
+          <div class="col-lg-12  col-md-12   ">
+            <ul class=" row row-cols-sm-1 row-cols-md-3 nav-1  nav nav-tabs  mb-5" id="myTab" role="tablist">
+
+
+              <li class="nav-item pt-3 p-4 ">
+                <a class="nav-link active fs-5 pt-0 fw-bold   " id="home-tab" data-toggle="tab" href="#home" role="tab"
+                  aria-controls="home" aria-selected="true">BIOGRAPHY
+                  - 01
+                </a>
+              </li>
+              <li class="nav-item pt-3">
+                <a class="nav-link fs-5 pt-0 fw-bold " id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                  aria-controls="profile" aria-selected="false">SKILLS
+                  - 02</a>
+              </li>
+              <li class="nav-item pt-3">
+                <a class="nav-link fs-5 pt-0 fw-bold " id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                  aria-controls="contact" aria-selected="false">EDUCATION
+                  - 03</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-content " id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <div class=" col-lg-6  mt-3">
+                      <div class="row gx-1 border-bottom pb-2   ">
+                        <div class="col-lg-2 fw-bold fs-4  bio    ">Name</div>
+                        <div class="col-lg-2 offset-lg-8 text-end   biod ">
+                          Ajay
+                        </div>
+                      </div>
+                      <div class="row gx-1 mt-3 border-bottom pb-2  ">
+                        <div class="col-lg-2 fw-bold   bio  ">Age</div>
+                        <div class="col-lg-2 offset-lg-8  text-end  biod">
+                          18
+                        </div>
+                      </div>
+                      <div class="row gx-1 mt-3 border-bottom pb-2  ">
+                        <div class="col-lg-2 fw-bold  bio  ">Email
+                        </div>
+                        <div class="col-lg-6 offset-lg-4 text-end   biod">
+                          yogiajay185@gmail.com
+                        </div>
+                      </div>
+                      <div class="row gx-1 mt-3 border-bottom pb-2  ">
+                        <div class="col-lg-2 fw-bold   bio  ">Skype
+                        </div>
+                        <div class="col-lg-2 offset-lg-8 text-end   biod">
+                          adgh
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class=" col-lg-6 mt-3">
+                      <div class="row border-bottom pb-2  ">
+                        <div class="col-lg-3 fw-bold  bio  ">Birthday</div>
+                        <div class="col-lg-5 offset-lg-4   text-end  biod">
+                          25 March, 2006
+                        </div>
+                      </div>
+                      <div class="row  mt-3 border-bottom pb-2 ">
+                        <div class="col-lg-3 fw-bold  bio   ">Address</div>
+                        <div class="col-lg-5  offset-lg-4  text-end biod">
+                          chomu ,jaipur
+                        </div>
+                      </div>
+                      <div class="row  mt-3 border-bottom pb-2 ">
+                        <div class="col-lg-3 fw-bold  bio  ">Phone</div>
+                        <div class="col-lg-4 offset-lg-5   text-end biod">
+                          9521322901
+                        </div>
+                      </div>
+                      <div class="row  mt-3 border-bottom pb-2 ">
+                        <div class="col-md-3 fw-bold  bio  ">Freelance</div>
+                        <div class="col-md-3 offset-md-6 text-end   biod">
+                          Available
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="container mt-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <i class="bi bi-filetype-html"></i>
+
+                    </div>
+                    <div class="col-md-5">
+                      Object oriented programming
+                    </div>
+                    <div class="col-md-5  ">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <span>75%</span>
+
+                        </div>
+                        <div class="col-md-8 mt-2">
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <i class="bi bi-filetype-html"></i>
+
+                    </div>
+                    <div class="col-md-5">
+                      Object oriented programming
+                    </div>
+                    <div class="col-md-5  ">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <span>75%</span>
+
+                        </div>
+                        <div class="col-md-8 mt-2">
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <i class="bi bi-filetype-html"></i>
+
+                    </div>
+                    <div class="col-md-5">
+                      Object oriented programming
+                    </div>
+                    <div class="col-md-5  ">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <span>75%</span>
+
+                        </div>
+                        <div class="col-md-8 mt-2">
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <i class="bi bi-filetype-html"></i>
+
+                    </div>
+                    <div class="col-md-5">
+                      Object oriented programming
+                    </div>
+                    <div class="col-md-5  ">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <span>75%</span>
+
+                        </div>
+                        <div class="col-md-8 mt-2">
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="mt-3">
+              <button type="button" class="btn btn-primary">Contact Button 1</button>
+              <button type="button" class="btn btn-secondary">Contact Button 2</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-12 ">
+          <div class="row">
+            <div class="col-md-2 offset-md-10 ">
+              <img class="work-available-image" src="16.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container p-4 mt-5">
+        <div class="row  ">
+          <div class=" col-md-12 text-center work-available">
+            <div class="col-md-8 offset-md-2">
+              <h1 class="title ">I'm <span>Available</span> For <br>
+                Freelance Work</h1>
+            </div>
+
+            <button type="button" class="btn hire_me_button btn-lg mt-5 "> <span>Hire Me Now</span> </button>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="col-md-5 work-available-image-1">
+          <img class="img-fluid" src="2 (1).png" alt="" width="300px">
+        </div>
+      </div>
+
+
+
+
+
+      <div class="container bolg pb-5">
+        <h4 class="text-center service-heading_gradient-text mb-2">NEWS</h4>
+        <h2 class="text-center service-heading-2  ">Latest from blog</h2>
+        <div class="p-2" style="border-bottom:4px solid;width: 80px;margin: auto;color: #ff014f;"></div>
+        <div class="row  mt-5 ms-4">
+          <div class="col-lg-4 col-sm-12 col-md-4  services_bio   text-center">
+            <div class=" col-md-12 card" style=" background-color:rgba(255, 255, 255, 0.021); border:none; ">
+              <img src="3-1-1-432x324.jpg" class="card-img-top" alt="...">
+              <div class=" card-body">
+                <h3 class="card-title mt-3 ">Overcame breeding or my</h3>
+                <div class="row text-muted mt-3 fs-5">
+                  <div class="col-md-1">
+                    <i class="bi bi-person-circle"></i>
+                  </div>
+                  <div class="col-md-5">
+                    <p class=" ">Ajay2023</p>
+                  </div>
+                  <div class="col-md-1">
+                    <i class="bi bi-calendar3"></i>
+                  </div>
+                  <div class="col-md-5  ">
+                    <p class=" ">31-1-2023</p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-4  services_bio   text-center">
+            <div class=" col-md-12 card" style=" background-color:rgba(255, 255, 255, 0.021); border:none; ">
+              <img src="2-3-1-432x324.jpg" class="card-img-top" alt="...">
+              <div class=" card-body">
+                <h3 class="card-title mt-3 ">Overcame breeding or my</h3>
+                <div class="row text-muted mt-3 fs-5">
+                  <div class="col-md-1">
+                    <i class="bi bi-person-circle"></i>
+                  </div>
+                  <div class="col-md-5">
+                    <p class=" ">Ajay2023</p>
+                  </div>
+                  <div class="col-md-1">
+                    <i class="bi bi-calendar3"></i>
+                  </div>
+                  <div class="col-md-5  ">
+                    <p class=" ">31-1-2023</p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-4  services_bio   text-center">
+            <div class=" col-md-12 card" style=" background-color:rgba(255, 255, 255, 0.021); border:none; ">
+              <img src="1-3-1-432x324.jpg" class="card-img-top" alt="...">
+              <div class=" card-body">
+                <h3 class="card-title mt-3 ">Overcame breeding or my</h3>
+                <div class="row text-muted mt-3 fs-5">
+                  <div class="col-md-1">
+                    <i class="bi bi-person-circle"></i>
+                  </div>
+                  <div class="col-md-5">
+                    <p class=" ">Ajay2023</p>
+                  </div>
+                  <div class="col-md-1">
+                    <i class="bi bi-calendar3"></i>
+                  </div>
+                  <div class="col-md-5  ">
+                    <p class=" ">31-1-2023</p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6  p-5 contact">
+              <div class="row">
+                <h1 class="text-dark fw-bold">Let's talk?</h1>
+                <p class="text-secondary fs-4">It's all about the humans behind a brand and those experiencing it, br
+                  we're right there. In the middle
+                  performance quick.</p>
+                <form class="row g-3">
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" id="inputCity " placeholder="Name">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" class="form-control " id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="number" class="form-control" id="inputPassword4" placeholder="phone">
+                  </div>
+                  <div class="mb-3 col-md-12">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                      placeholder="tell us about"></textarea>
+                  </div>
+                  <div class="mb-3 col-md-6">
+                    <button>
+                      Send Message
+                    </button>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+            <div class="col-md-4 offset-2 ">
+              <div class="row">
+                <div class="col-md-2 ">
+                  <i class="fa fa-envelope-o fs-1 contact-icon" aria-hidden="true"></i>
+
+                </div>
+                <div class="col-md-10 contact-data">
+                  <P class="fs-5 text-muted  ">MY EMAIL
+                  </P>
+                  <h4>
+                    yogiajay185@gmail.com</h4>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-2 ">
+                  <i class="fa fa-envelope-o fs-1 contact-icon" aria-hidden="true"></i>
+
+                </div>
+                <div class="col-md-10 contact-data">
+                  <P class="fs-5 text-muted  ">
+                    ADDRESS
+                  </P>
+                  <h4>
+                    yogiajay185@gmail.com</h4>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-2 ">
+                  <i class="fa fa-envelope-o fs-1 contact-icon" aria-hidden="true"></i>
+
+                </div>
+                <div class="col-md-10 contact-data">
+                  <P class="fs-5 text-muted   ">
+                    PHONE
+                  </P>
+                  <h4>
+                    yogiajay185@gmail.com</h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
     </div>
-
   </main>
-  <!-- main-content -->
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const titles = ["Web Developer", "Software Engineer", "Designer"];
-      let index = 0;
-      const typingText = document.getElementById("typing-text");
 
-      function typeText() {
-        typingText.textContent = titles[index];
-        typingText.style.animation = "none";
-        typingText.offsetHeight; /* trigger reflow */
-        typingText.style.animation = "typing 2s steps(30, end), blink-caret 0.75s step-end infinite";
-        index = (index + 1) % titles.length;
-        setTimeout(typeText, 4000); // Adjust the delay as needed
-      }
+</body>
 
-      typeText();
-    });
-  </script>
+<!-- main-content -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const titles = ["Web Developer", "Software Engineer", "Designer"];
+    let index = 0;
+    const typingText = document.getElementById("typing-text");
+
+    function typeText() {
+      typingText.textContent = titles[index];
+      typingText.style.animation = "none";
+      typingText.offsetHeight; /* trigger reflow */
+      typingText.style.animation = "typing 2s steps(30, end), blink-caret 0.75s step-end infinite";
+      index = (index + 1) % titles.length;
+      setTimeout(typeText, 4000); // Adjust the delay as needed
+    }
+
+    typeText();
+  });
+</script>
 
 
 

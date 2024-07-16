@@ -1,0 +1,196 @@
+
+@media screen and (max-width: 992px) {
+    .navber {
+      display: inline;
+      width: auto !important;
+      /* Set the navbar width to 200px */
+    }
+  
+    .sidenav {
+      display: none !important;
+    }
+  
+    .logo {
+      text-align: center !important;
+      height: auto;
+      margin: auto;
+    }
+  
+    .menu-option li {
+      list-style: none;
+      padding-top: 15px;
+    }
+  
+    .menu-option li a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  
+    .banner-heading {
+      font-size: 80px !important;
+      /* margin: auto; */
+    }
+  
+    .banner-heading .welcome-text {
+      font-size: 80px;
+    }
+    .biodata{
+        margin: auto;
+    }
+  }
+  
+  @media screen and (min-width: 600px) and (max-width: 992px) {
+    .main {
+      margin-left: 30px !important;
+      /* margin-top: -90px !important; */
+    }
+  
+    .banner-heading {
+      font-size: 50px !important;
+    }
+  
+    .banner-img {
+      width: 300px;
+      height: 350px;
+      /* margin-left: 200px ; */
+    }
+  
+    /* .banner-img{
+      align-items: center !important;
+      top: 100px !important;
+    } */
+  }
+  
+  @media screen and (min-width: 992px) {
+    /* Styles for screens wider than 992px */
+    .banner-heading {
+      font-size: 60px !important;
+      text-align: start !important;
+    }
+  
+    .heading-title {
+      text-align: start !important;
+    }
+  
+    .banner-heading .welcome-text {
+      padding-right: 115px;
+    }
+  
+    .banner-img {
+      width: 400px;
+    }
+    .banner-button {
+      margin-left: -62% !important;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .banner-heading {
+      text-align: center !important;
+      font-size: 35px !important;
+    }
+  
+    .heading-title {
+      font-size: 20px;
+    }
+  
+    .banner-heading .welcome-text {
+      display: none;
+    }
+  
+    .banner-img {
+      height: 250px;
+      width: 220px;
+    }
+  
+    .main {
+      margin-left: 10px !important;
+      /* margin-top: -90px !important; */
+    }
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+  
+  @media screen and (max-width: 373px) {
+    .banner-heading {
+      text-align: center;
+      font-size: 20px !important;
+      text-size-adjust: auto !important;
+      width: 100% !important;
+      display: block !important;
+    }
+  
+    .main {
+      margin-left: 5px !important;
+      margin-top: -60px !important;
+    }
+  
+    .navber {
+      width: 100%;
+    }
+  }
+  @media (max-width: 992px) {
+    .center-content {
+      text-align: center;
+    }
+  
+    .center-content .heading-sub-title,
+    .center-content .completed-project {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile {
+      text-align: center !important;
+    }
+    .profile-icon {
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  }  
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .nav-1{
+      display: none;
+        
+    }
+    .nav .nav-item .nav-link {
+        
+        width: 300px;
+        height: 60px;
+       
+      }
+    .responsive-nav{
+        background:none;
+        border: none;
+        
+        
+    }
+    .responsive-nav .nav-item .nav-link{
+background-color:rgba(255, 255, 255, 0.495);
+
+
+        
+    }
+    .biodata{
+        margin-left: 40px !important;
+    } 
+
+    
+    
+    
+  }
+  
